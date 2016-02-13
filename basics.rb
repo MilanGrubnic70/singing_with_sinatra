@@ -28,3 +28,7 @@ end
 post '/form' do
 	"You entered '#{params[:message]}'."
 end
+
+get '/secret' do
+	erb :secret
+end
