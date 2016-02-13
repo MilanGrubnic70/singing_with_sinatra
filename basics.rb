@@ -20,3 +20,7 @@ end
 get '/more/*' do
 	params[:splat]
 end
+
+get '/form' do
+	erb :form
+end
