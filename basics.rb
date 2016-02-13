@@ -32,3 +32,7 @@ end
 get '/secret' do
 	erb :secret
 end
+
+post '/secret' do
+	params[:secret].reverse
+end
