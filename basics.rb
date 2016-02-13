@@ -14,5 +14,5 @@ get '/about' do
 end
 
 get '/hello/:name' do
-	params[:name]
+	"Hello there, #{params[:name]}."
 end
