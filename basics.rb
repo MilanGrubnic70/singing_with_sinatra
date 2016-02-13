@@ -36,3 +36,7 @@ end
 post '/secret' do
 	params[:secret].reverse
 end
+
+get '/decrypt/:secret' do
+	params[:secret].reverse
+end
