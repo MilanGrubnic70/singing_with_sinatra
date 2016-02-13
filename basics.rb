@@ -12,3 +12,7 @@ end
 get '/about' do
 	"I'm Milan Grubnic"
 end
+
+get '/hello/:name' do
+	params[:name]
+end
