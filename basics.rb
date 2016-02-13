@@ -16,3 +16,7 @@ end
 get '/hello/:name/:city' do
 	"Hello there, #{params[:name].capitalize} from #{params[:city].capitalize}."
 end
+
+get '/more/*' do
+	params[:splat]
+end
